@@ -7,8 +7,10 @@ for (let x = 0; x < fruits.length; x++) {
     }
     else {
         if (fruits[x] === "Orange") {
+            console.log("removing element : " + fruits.splice(x, 1));
             fruits[x] = "watermalon";
         }
+
     }
 
 }
