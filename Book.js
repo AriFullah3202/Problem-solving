@@ -7,4 +7,4 @@ function paperRequirements(first, second, third) {
     const thirdBookAllPage = thirdBookPge * third;
     return totalPage = firstBookAllPage + secondBookAllPage + thirdBookAllPage;
 }
-console.log("you need to page for all book " + paperRequirements(2, 3, 4));
+console.log("you need to page for all book " + paperRequirements(7, 3, 4));
